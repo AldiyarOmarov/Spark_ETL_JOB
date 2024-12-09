@@ -20,8 +20,8 @@ OUTPUT_PATH= path to your output folder
 
 
 ## Screenshots
-Visual representation of executing code lines like:
-joined_df.show()
+Visual representation of executing code lines like:\
+joined_df.show()\
 print(f"Number of rows in the joined DataFrame: {joined_df.count()}")
 
 Pytests and folder "output"
@@ -36,6 +36,7 @@ To run this project, you need the following:
 - **geohash2**
 - **python-dotenv**
 - **pytest**
+- **pytest-mock**
 
 You can install the required Python packages by running:
 
