@@ -12,11 +12,11 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline built using
 - **Output**: Processed data is saved in Parquet format, partitioned by the city.
 
 ## .env:
-Create a .env file in the root directory and add your OpenCage API key:
-OPENCAGE_API_KEY="your_api_key"
-RESTAURANT_PATH= path to your restaurant csv
-WEATHER_PATH= path to your weather parquet
-OUTPUT_PATH= path to your output folder
+Create a .env file in the root directory and add your OpenCage API key:\
+OPENCAGE_API_KEY="your_api_key" \
+RESTAURANT_PATH= path to your restaurant csv \
+WEATHER_PATH= path to your weather parquet \
+OUTPUT_PATH= path to your output folder 
 
 
 ## Screenshots
@@ -29,13 +29,13 @@ Pytests and folder "output"
 
 To run this project, you need the following:
 
-- **Python**:
-- **Apache Spark**:
-- **PySpark**: 
-- **requests**: 
-- **geohash2**: 
-- **python-dotenv**: 
-- **pytest**: 
+- **Python**
+- **Apache Spark**
+- **PySpark**
+- **requests**
+- **geohash2**
+- **python-dotenv**
+- **pytest**
 
 You can install the required Python packages by running:
 
