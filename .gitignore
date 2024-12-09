@@ -1,0 +1,21 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environments
+pyspark_env/
+
+# Ignore output directory where processed data might be saved
+output/
+
+# Ignore IDE configuration directories
+.idea/
+.vscode/
+
+# Ignore environment variables file
+.env
+
+# Other specific files to ignore can go here
+*.log
+*.tmp
